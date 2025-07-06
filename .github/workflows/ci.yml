@@ -20,7 +20,7 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
-          pytest --cov
+          python -m pytest -v
       - name: Build Docker image
         run: docker build .
       - name: Setup Docker Compose
