@@ -21,6 +21,7 @@ install_deps() {
         python-dotenv \
         aiosqlite \
         pytest \
+        pytest-cov \
         pytest-asyncio \
         coverage
 }
